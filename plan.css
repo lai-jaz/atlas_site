@@ -1,0 +1,572 @@
+/*PLAN A TRIP*/
+
+.plan-a-trip {
+    background-color: #beeaff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90%;
+  }
+  
+  .plan-a-trip .overlap-wrapper {
+    background-color: #beeaff;
+    width: 1440px;
+    height: 1024px;
+  }
+  
+  .plan-a-trip .overlap {
+    position: relative;
+    width: 1380px;
+    height: 960px;
+    top: 32px;
+    left: 30px;
+    border-radius: 30px;
+  }
+  
+  .plan-a-trip .frame {
+    position: absolute;
+    margin-top: 7rem;
+    width: 1380px;
+    height: 960px;
+    top: 0;
+    left: 0;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 4px solid;
+    border-color: #ffffff;
+    background: linear-gradient(
+      180deg,
+      rgba(250.36, 250.36, 250.36, 0.5) 0%,
+      rgba(250.36, 250.36, 250.36, 0) 41.54%,
+      rgba(250.36, 250.36, 250.36, 0.15) 70.52%,
+      rgba(250.36, 250.36, 250.36, 0.5) 89.34%,
+      rgba(250.36, 250.36, 250.36, 0) 100%,
+      rgba(250.36, 250.36, 250.36, 0.5) 100%
+    );
+  }
+  
+  .plan-a-trip .group {
+    position: absolute;
+    width: 246px;
+    height: 137px;
+    top: 177px;
+    left: 0;
+  }
+  
+  .plan-a-trip .overlap-group {
+    position: relative;
+    height: 137px;
+  }
+  
+  .plan-a-trip .rectangle {
+    position: absolute;
+    width: 246px;
+    height: 46px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+  }
+  
+  .plan-a-trip .div {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+    position: absolute;
+    top: 9px;
+    left: 38px;
+  }
+  
+  .plan-a-trip .text-wrapper {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #f75c30;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .plan-a-trip .text-wrapper-2 {
+    position: relative;
+    width: fit-content;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .plan-a-trip .overlap-2 {
+    position: absolute;
+    width: 718px;
+    height: 121px;
+    top: 140px;
+    left: 280px;
+    border-radius: 80px;
+    border: 4px solid;
+    border-color: #ffffff;
+    box-shadow: -1px 4px 4px #00000040;
+  }
+  
+  .plan-a-trip .vector-wrapper {
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    top: 15px;
+    left: 609px;
+    background-color: #f75c30;
+    border-radius: 45.01px;
+  }
+  
+  .plan-a-trip .vector {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 29px;
+    left: 31px;
+  }
+  
+  .plan-a-trip .text-wrapper-3 {
+    position: absolute;
+    top: 26px;
+    left: 39px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .plan-a-trip .text-wrapper-4 {
+    left: 242px;
+    position: absolute;
+    top: 26px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .plan-a-trip .text-wrapper-5 {
+    left: 443px;
+    position: absolute;
+    top: 26px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .plan-a-trip .text-wrapper-6 {
+    position: absolute;
+    top: 59px;
+    left: 37px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .plan-a-trip .text-wrapper-7 {
+    position: absolute;
+    top: 62px;
+    left: 242px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .plan-a-trip .text-wrapper-8 {
+    position: absolute;
+    top: 62px;
+    left: 443px;
+    font-family: "Inter-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .plan-a-trip .overlap-3 {
+    position: absolute;
+    width: 718px;
+    height: 121px;
+    top: 550px;
+    left: 280px;
+    border-radius: 80px;
+    border: 4px solid;
+    border-color: #ffffff;
+    box-shadow: -1px 4px 4px #00000040;
+  }
+  
+  .plan-a-trip .overlap-group-wrapper {
+    position: absolute;
+    width: 357px;
+    height: 762px;
+    top: 200px;
+    left: 1003px;
+  }
+  
+  .plan-a-trip .ellipse-wrapper {
+    height: 756px;
+    background-image: url(./img/image-removebg-preview-28-1.png);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .plan-a-trip .ellipse {
+    position: relative;
+    width: 332px;
+    height: 42px;
+    top: 675px;
+    left: 25px;
+    background-color: #0000001a;
+    border-radius: 165.89px/20.99px;
+  }
+  
+  .plan-a-trip .overlap-4 {
+    position: absolute;
+    width: 333px;
+    height: 211px;
+    top: 17rem;
+    left: 32rem;
+    border-radius: 20px;
+    border: 4px solid;
+    border-color: #ffffff;
+    box-shadow: 0px 6px 4px #00000040;
+  }
+  /* Style for the orange button */
+  .plan-a-trip .orange-button {
+    background-color: #f75c30; /* Orange color */
+    color: #fff; /* Text color */
+    padding: 7px 15px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 5px;
+    font-size: 16px; /* Adjust font size as needed */
+    cursor: pointer;
+}
+
+/* Hover effect for the orange button */
+.plan-a-trip .orange-button:hover {
+    background-color: #f75c30; /* Lighter shade of orange on hover */
+}
+
+  .plan-a-trip .img {
+    position: absolute;
+    width: 293px;
+    height: 137px;
+    top: 12px;
+    left: 18px;
+    background-image: url("https://c0.wallpaperflare.com/preview/929/106/569/pakistan-gwadar-gwadar-sea-port-coast.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  .plan-a-trip .imgKhoj {
+    position: absolute;
+    width: 293px;
+    height: 137px;
+    top: 12px;
+    left: 18px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCebffyUhXbQ0CeCjk5DOCCN9re8M_obmirw&usqp=CAU");
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .plan-a-trip .text-wrapper-9 {
+    position: absolute;
+    top: 164px;
+    left: 26px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .plan-a-trip .ph-calendar {
+    left: 277px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 161px;
+    background-image: url("https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678116-calendar-512.png");
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .plan-a-trip .overlap-5 {
+    position: absolute;
+    width: 333px;
+    height: 211px;
+    top: 32rem;
+    left: 32rem;
+    border-radius: 20px;
+    border: 4px solid;
+    border-color: #ffffff;
+    box-shadow: 0px 6px 4px #00000040;
+  }
+  
+  .plan-a-trip .ph-calendar-2 {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 157px;
+    left: 277px;
+    background-image: url("https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678116-calendar-512.png");
+    background-size: cover;
+    background-position: 50% 50%;
+    
+  }
+  
+  .plan-a-trip .overlap-6 {
+    position: absolute;
+    width: 333px;
+    height: 211px;
+    top: 32rem;
+    left: 60rem;
+    border-radius: 20px;
+    border: 4px solid;
+    border-color: #ffffff;
+    box-shadow: 0px 6px 4px #00000040;
+  }
+  
+  .plan-a-trip .rectangle-2 {
+    position: absolute;
+    width: 293px;
+    height: 137px;
+    top: 12px;
+    left: 18px;
+    object-fit: cover;
+    background-image: url("https://i.ytimg.com/vi/4wJLH6dSAgk/maxresdefault.jpg");
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .plan-a-trip .overlap-7 {
+    position: absolute;
+    width: 333px;
+    height: 211px;
+    top: 17rem;
+    left: 60rem;
+    border-radius: 20px;
+    border: 4px solid;
+    border-color: #ffffff;
+    box-shadow: 0px 6px 4px #00000040;
+  }
+  
+  .plan-a-trip .rectangle-3 {
+    position: absolute;
+    width: 293px;
+    height: 137px;
+    top: 12px;
+    left: 17px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZN_wOdsjolln8R0-nfXJ0JvW0IhZyqQxlrw&usqp=CAU");
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .plan-a-trip .text-wrapper-10 {
+    position: absolute;
+    top: 164px;
+    left: 23px;
+    font-family: "Inter-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .plan-a-trip .ph-calendar-3 {
+    left: 278px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    top: 161px;
+    background-image: url("https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678116-calendar-512.png");
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .plan-a-trip .div-wrapper {
+    position: absolute;
+    width: 70px;
+    height: 26px;
+    top: 19px;
+    left: 61px;
+  }
+  
+  .plan-a-trip .overlap-8 {
+    position: relative;
+    width: 68px;
+    height: 26px;
+  }
+  
+  .plan-a-trip .text-wrapper-11 {
+    position: absolute;
+    top: 0;
+    left: 1px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #100e11;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .plan-a-trip .line {
+    position: absolute;
+    width: 68px;
+    height: 4px;
+    top: 22px;
+    left: 0;
+  }
+  
+  .plan-a-trip .frame-2 {
+    display: flex;
+    width: 58px;
+    align-items: flex-start;
+    gap: 24px;
+    position: absolute;
+    top: 22px;
+    left: 1279px;
+  }
+  
+  .plan-a-trip .vector-2 {
+    position: relative;
+    width: 15.17px;
+    height: 19.79px;
+  }
+  
+  .plan-a-trip .vector-3 {
+    position: relative;
+    width: 18.68px;
+    height: 19.49px;
+  }
+  
+  .plan-a-trip .frame-3 {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 21px;
+    position: absolute;
+    top: 20px;
+    left: 564px;
+  }
+  
+  .plan-a-trip .text-wrapper-12 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .plan-a-trip .text-wrapper-13 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Inter-ExtraBold", Helvetica;
+    font-weight: 800;
+    color: #f75c30;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+  
+  .plan-a-trip .line-2 {
+    position: absolute;
+    width: 4px;
+    height: 960px;
+    top: 0;
+    left: 251px;
+  }
+  
+  .plan-a-trip .line-3 {
+    position: absolute;
+    width: 1129px;
+    height: 2px;
+    top: 65px;
+    left: 251px;
+  }
+  
+  .plan-a-trip .vuesax-outline-arrow {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 172px;
+    left: 835px;
+  }
+  
+  .plan-a-trip .vuesax-outline-arrow-2 {
+    top: 582px;
+    left: 835px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .plan-a-trip .vuesax-outline-arrow-3 {
+    top: 172px;
+    left: 614px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .plan-a-trip .vuesax-outline-arrow-4 {
+    top: 582px;
+    left: 614px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .plan-a-trip .vuesax-outline-arrow-5 {
+    top: 172px;
+    left: 408px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .plan-a-trip .vuesax-outline-arrow-6 {
+    top: 582px;
+    left: 377px;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+  }

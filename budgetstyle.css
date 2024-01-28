@@ -1,0 +1,71 @@
+/* Table styling */
+#myTable {
+    border-collapse: collapse;
+    width: 90%;
+    margin: 75px auto;
+}
+
+#myTable th,
+#myTable td {
+    border: 5px solid white;
+    padding: 15px;
+    text-align: center;
+    font-size: 16px;
+}
+
+#myTable th {
+    background-color: #add8e6;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#myTable tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#myTable input {
+    width: 100px;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+#myTable button {
+    background-color: #99bdc9;
+    color: black;
+    padding: 8px 12px;
+    margin-left: 10px;
+    border: 2px solid white;
+    border-radius: 0; /* Make the button square */
+    cursor: pointer;
+}
+
+#myTable button:hover {
+    background-color: #ff5733;
+}
+
+/* Category and amount display */
+#myTable .category-column {
+    font-weight: bold;
+}
+
+#myTable .total-column {
+    font-weight: bold;
+    color: #ff5733;
+}
+
+
+#myTable tr.user-budget-row {
+    background-color: white;
+    font-weight: bold;
+}
+
+/* Responsive styles for small screens */
+@media (max-width: 767px) {
+    #myTable {
+        font-size: 14px;
+    }
+
+    #myTable input {
+        width: 100%;
+    }
+}
